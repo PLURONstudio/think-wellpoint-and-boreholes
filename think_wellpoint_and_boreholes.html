@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>THINK Wellpoint & Boreholes | Fast, Reliable & Affordable Groundwater Solutions</title>
+  <meta name="description" content="Professional borehole drilling, wellpoint installation, and pump repairs. Reliable ground water solutions across residential, commercial, and agricultural properties.">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              slate: '#1e293b',      /* Deep slate blue */
+              slateDark: '#0f172a',
+              blue: '#0284c7',       /* Water cyan / blue */
+              blueHover: '#0369a1',
+              lightBlue: '#e0f2fe',
+              offWhite: '#f8fafc',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Safe padding for fixed bottom mobile call bar */
+    .pb-safe-mobile {
+      padding-bottom: calc(5.5rem + env(safe-area-inset-bottom, 0px));
+    }
+  </style>
+</head>
+<body class="bg-brand-offWhite text-slate-800 font-sans antialiased pb-safe-mobile md:pb-0 selection:bg-brand-blue selection:text-white">
+
+  <!-- 1. MOBILE HEADER -->
+  <header class="sticky top-0 z-40 bg-brand-slate text-white border-b border-slate-700 shadow-md">
+    <div class="max-w-6xl mx-auto px-4 py-3 sm:py-4 flex items-center justify-between gap-3">
+      <!-- Company Title -->
+      <a href="#" class="flex flex-col focus:outline-none">
+        <span class="font-extrabold text-base sm:text-xl tracking-tight leading-tight uppercase">
+          THINK <span class="text-brand-blue font-black">Wellpoint</span>
+        </span>
+        <span class="text-[10px] sm:text-xs text-slate-300 font-medium tracking-wide">
+          &amp; Boreholes
+        </span>
+      </a>
+
+      <!-- Direct Tap-to-Call Button (Header) -->
+      <div class="flex items-center gap-3">
+        <a href="tel:0752247240" 
+           class="inline-flex items-center gap-2 bg-brand-blue hover:bg-brand-blueHover active:scale-95 text-white px-3.5 py-2 rounded-lg text-xs sm:text-sm font-bold tracking-wide transition shadow-sm focus:ring-2 focus:ring-offset-2 focus:ring-brand-blue focus:ring-offset-brand-slate"
+           aria-label="Call THINK Wellpoint at 075 224 7240">
+          <svg class="w-4 h-4 shrink-0 fill-current" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+          </svg>
+          <span class="hidden sm:inline">075 224 7240</span>
+          <span class="sm:hidden uppercase tracking-wider text-[11px]">Call Now</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- 2. HERO SECTION -->
+    <section class="bg-gradient-to-b from-brand-slate via-slate-900 to-slate-950 text-white pt-8 pb-12 sm:pt-14 sm:pb-16 px-4">
+      <div class="max-w-4xl mx-auto text-center">
+        <!-- Tagline Pill -->
+        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-brand-blue/20 border border-brand-blue/40 text-brand-lightBlue text-xs font-semibold uppercase tracking-wider mb-4">
+          <span class="w-2 h-2 rounded-full bg-brand-blue animate-pulse"></span>
+          <span>Fast, Reliable &amp; Affordable Groundwater</span>
+        </div>
+
+        <!-- Headline -->
+        <h1 class="text-2xl sm:text-4xl md:text-5xl font-black tracking-tight uppercase leading-tight mb-4">
+          Reliable Groundwater Solutions
+        </h1>
+
+        <!-- Sub-headline -->
+        <p class="text-sm sm:text-base md:text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed mb-6">
+          Take control of your water supply. High-volume wellpoint systems and deep borehole drilling engineered for homes, businesses, and agriculture.
+        </p>
+
+        <!-- Key Value Points -->
+        <div class="grid grid-cols-3 gap-2.5 max-w-lg mx-auto mb-7 text-center">
+          <div class="bg-slate-800/90 border border-slate-700/80 p-2.5 sm:p-3 rounded-xl shadow-sm">
+            <span class="block text-brand-blue font-black text-sm sm:text-base">Fast</span>
+            <span class="text-[11px] text-slate-300 font-medium">Quick Turnaround</span>
+          </div>
+          <div class="bg-slate-800/90 border border-slate-700/80 p-2.5 sm:p-3 rounded-xl shadow-sm">
+            <span class="block text-brand-blue font-black text-sm sm:text-base">Reliable</span>
+            <span class="text-[11px] text-slate-300 font-medium">Proven Yield</span>
+          </div>
+          <div class="bg-slate-800/90 border border-slate-700/80 p-2.5 sm:p-3 rounded-xl shadow-sm">
+            <span class="block text-brand-blue font-black text-sm sm:text-base">Affordable</span>
+            <span class="text-[11px] text-slate-300 font-medium">Fair Direct Rates</span>
+          </div>
+        </div>
+
+        <!-- Primary CTA Buttons -->
+        <div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3 mb-8 sm:mb-10 max-w-md mx-auto sm:max-w-none">
+          <a href="tel:0752247240" 
+             class="flex items-center justify-center gap-2 bg-brand-blue hover:bg-brand-blueHover active:scale-98 text-white px-6 py-3.5 rounded-xl font-bold text-sm sm:text-base uppercase tracking-wider shadow-lg transition">
+            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+            </svg>
+            <span>Call 075 224 7240</span>
+          </a>
+          <a href="#quote-form" 
+             class="flex items-center justify-center bg-white/10 hover:bg-white/20 text-white border border-white/25 px-6 py-3.5 rounded-xl font-bold text-sm sm:text-base uppercase tracking-wider transition">
+            Request Free Quote
+          </a>
+        </div>
+
+        <!-- HERO VISUAL: High-Yield Water Flow (Client Image) -->
+        <div class="relative rounded-2xl overflow-hidden border-2 border-brand-blue/60 shadow-2xl bg-slate-900 max-w-3xl mx-auto group">
+          <img 
+            src="water-flow.jpg" 
+            onerror="this.src='FB_IMG_1789650200310.jpg'"
+            alt="High-yield water flowing heavily from a newly installed wellpoint pipe head and control box onto the ground" 
+            width="715" 
+            height="953"
+            loading="eager"
+            class="w-full h-72 sm:h-96 md:h-[460px] object-cover object-center group-hover:scale-[1.02] transition-transform duration-700"
+          >
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950/95 via-slate-950/30 to-transparent flex items-end p-4 sm:p-6 text-left">
+            <div>
+              <span class="inline-block bg-brand-blue text-white text-[10px] sm:text-xs font-bold uppercase tracking-widest px-2.5 py-1 rounded mb-1.5 shadow">
+                Verified Flow Rate • End Result
+              </span>
+              <p class="text-white font-extrabold text-base sm:text-xl leading-tight">
+                High-Volume Discharge from Fresh Borehole Installation
+              </p>
+              <p class="text-slate-300 text-xs sm:text-sm font-medium mt-1">
+                Pure, abundant groundwater streaming continuously through our heavy-duty wellhead and control system.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. CORE SERVICES SECTION (Card Stack on Mobile, Grid on Desktop) -->
+    <section class="py-12 sm:py-16 px-4 max-w-5xl mx-auto">
+      <div class="text-center mb-8 sm:mb-12">
+        <span class="text-brand-blue font-bold text-xs uppercase tracking-widest block mb-1">What We Do</span>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-brand-slate uppercase tracking-tight">
+          Core Groundwater Services
+        </h2>
+        <div class="w-12 h-1 bg-brand-blue mx-auto mt-2 rounded"></div>
+      </div>
+
+      <!-- Services Cards -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-5 sm:gap-6">
+        
+        <!-- Service 1: Borehole Drilling -->
+        <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-brand-lightBlue text-brand-blue flex items-center justify-center mb-4">
+              <svg class="w-6 h-6 fill-none stroke-current" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
+              </svg>
+            </div>
+            <h3 class="text-lg font-bold text-brand-slate mb-2">Borehole Drilling</h3>
+            <p class="text-slate-600 text-sm leading-relaxed mb-4">
+              Deep water sourcing for residential &amp; agricultural properties to secure high-capacity, permanent off-grid water autonomy.
+            </p>
+          </div>
+          <ul class="text-xs text-slate-700 space-y-1.5 pt-3 border-t border-slate-100 font-medium">
+            <li class="flex items-center gap-1.5 text-brand-slate">
+              <span class="text-brand-blue font-bold">✓</span> Deep aquifer penetration
+            </li>
+            <li class="flex items-center gap-1.5 text-brand-slate">
+              <span class="text-brand-blue font-bold">✓</span> Heavy soil &amp; rock drilling
+            </li>
+          </ul>
+        </div>
+
+        <!-- Service 2: Wellpoint Installation -->
+        <div class="bg-white border-2 border-brand-blue/40 rounded-2xl p-6 shadow-md hover:shadow-lg transition flex flex-col justify-between relative">
+          <span class="absolute -top-3 right-4 bg-brand-blue text-white text-[10px] font-extrabold uppercase tracking-wider px-2.5 py-0.5 rounded-full shadow-sm">
+            High Demand
+          </span>
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-brand-blue text-white flex items-center justify-center mb-4">
+              <svg class="w-6 h-6 fill-none stroke-current" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v18m-6-6l6 6 6-6"/>
+              </svg>
+            </div>
+            <h3 class="text-lg font-bold text-brand-slate mb-2">Wellpoint Installation</h3>
+            <p class="text-slate-600 text-sm leading-relaxed mb-4">
+              Shallow groundwater extraction systems designed to bypass municipal tariffs, keep gardens lush, and supply reliable water year-round.
+            </p>
+          </div>
+          <ul class="text-xs text-slate-700 space-y-1.5 pt-3 border-t border-slate-100 font-medium">
+            <li class="flex items-center gap-1.5 text-brand-slate">
+              <span class="text-brand-blue font-bold">✓</span> Rapid installation turnaround
+            </li>
+            <li class="flex items-center gap-1.5 text-brand-slate">
+              <span class="text-brand-blue font-bold">✓</span> High flow, low running cost
+            </li>
+          </ul>
+        </div>
+
+        <!-- Service 3: Pump Repairs & Maintenance -->
+        <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-brand-lightBlue text-brand-blue flex items-center justify-center mb-4">
+              <svg class="w-6 h-6 fill-none stroke-current" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/>
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+              </svg>
+            </div>
+            <h3 class="text-lg font-bold text-brand-slate mb-2">Pump Repairs &amp; Maintenance</h3>
+            <p class="text-slate-600 text-sm leading-relaxed mb-4">
+              System flow optimization and fault detection. Rapid diagnosis of pressure loss, priming failure, electrical issues, or motor burnout.
+            </p>
+          </div>
+          <ul class="text-xs text-slate-700 space-y-1.5 pt-3 border-t border-slate-100 font-medium">
+            <li class="flex items-center gap-1.5 text-brand-slate">
+              <span class="text-brand-blue font-bold">✓</span> Prompt on-site troubleshooting
+            </li>
+            <li class="flex items-center gap-1.5 text-brand-slate">
+              <span class="text-brand-blue font-bold">✓</span> Submersible &amp; centrifugal units
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. PROOF OF WORK / EQUIPMENT CAPABILITY (Client Image) -->
+    <section class="bg-brand-slate text-white py-12 sm:py-16 px-4">
+      <div class="max-w-5xl mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          
+          <!-- Technical Summary -->
+          <div class="lg:col-span-6 space-y-4">
+            <span class="text-brand-blue font-bold text-xs uppercase tracking-widest block">
+              Professional Machinery &amp; Execution
+            </span>
+            <h2 class="text-2xl sm:text-3xl font-extrabold uppercase tracking-tight leading-snug">
+              Heavy-Duty Drilling In Compact Spaces
+            </h2>
+            <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+              Our specialized drilling rigs are designed for high-pressure water injection and deep stratum penetration, specifically engineered to operate inside tight residential passages, boundary walls, and carports without dismantling your property.
+            </p>
+
+            <!-- Technical Capability Points -->
+            <div class="space-y-3 pt-2">
+              <div class="flex items-start gap-3 bg-slate-800/90 p-3 rounded-xl border border-slate-700">
+                <div class="text-brand-blue font-black text-base mt-0.5">01</div>
+                <div>
+                  <h4 class="font-bold text-sm text-white">Tight Residential Access</h4>
+                  <p class="text-xs text-slate-400">Operates smoothly under carports, side paths, and confined yard spaces.</p>
+                </div>
+              </div>
+              <div class="flex items-start gap-3 bg-slate-800/90 p-3 rounded-xl border border-slate-700">
+                <div class="text-brand-blue font-black text-base mt-0.5">02</div>
+                <div>
+                  <h4 class="font-bold text-sm text-white">High-Pressure Active Flushing</h4>
+                  <p class="text-xs text-slate-400">High-velocity water wash breaks through tough gravel beds and packed sand layers.</p>
+                </div>
+              </div>
+              <div class="flex items-start gap-3 bg-slate-800/90 p-3 rounded-xl border border-slate-700">
+                <div class="text-brand-blue font-black text-base mt-0.5">03</div>
+                <div>
+                  <h4 class="font-bold text-sm text-white">Clean &amp; Controlled Execution</h4>
+                  <p class="text-xs text-slate-400">Full slurry containment and site washdown upon completion of drilling.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CAPABILITY VISUAL: Industrial Drilling Rig In Action (Client Image) -->
+          <div class="lg:col-span-6">
+            <div class="relative rounded-2xl overflow-hidden border-2 border-slate-700 shadow-2xl bg-slate-950 group">
+              <img 
+                src="drilling-rig.jpg" 
+                onerror="this.src='FB_IMG_1789650194509.jpg'"
+                alt="Heavy-duty industrial drilling rig actively operating and spraying water in a tight residential space" 
+                width="737" 
+                height="1600"
+                loading="lazy"
+                class="w-full h-80 sm:h-96 lg:h-[500px] object-cover object-top group-hover:scale-[1.02] transition-transform duration-700"
+              >
+              <div class="absolute bottom-0 inset-x-0 bg-slate-950/90 backdrop-blur-sm p-4 border-t border-slate-700/60">
+                <span class="text-[10px] uppercase tracking-widest text-brand-blue font-bold block mb-0.5">
+                  Actual On-Site Drilling
+                </span>
+                <p class="text-xs sm:text-sm text-white font-bold">
+                  Industrial Water-Drill Rig Operating in a Confined Residential Space
+                </p>
+                <p class="text-slate-400 text-[11px] mt-0.5 hidden sm:block">
+                  Drilling deep into water-bearing strata directly alongside residential structures.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. SIMPLE CONTACT & INQUIRY FORM SECTION -->
+    <section id="quote-form" class="py-12 sm:py-16 px-4 max-w-4xl mx-auto">
+      <div class="text-center mb-8">
+        <span class="text-brand-blue font-bold text-xs uppercase tracking-widest block mb-1">Fast Response</span>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-brand-slate uppercase tracking-tight">
+          Request A Free Quote
+        </h2>
+        <p class="text-slate-600 text-sm mt-1 max-w-md mx-auto">
+          Send a quick inquiry below or call us directly on <a href="tel:0752247240" class="text-brand-blue font-bold underline">075 224 7240</a>.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-6 sm:gap-8 items-start">
+        <!-- Inquiry Form -->
+        <div class="md:col-span-7 bg-white p-6 sm:p-8 rounded-2xl border border-slate-200 shadow-sm">
+          <form onsubmit="event.preventDefault(); document.getElementById('form-success').classList.remove('hidden'); this.reset();" class="space-y-4">
+            
+            <!-- Success Notice -->
+            <div id="form-success" class="hidden p-3.5 bg-emerald-50 border border-emerald-300 text-emerald-800 text-xs rounded-xl font-medium" role="alert">
+              ✓ Inquiry received! Our drilling team will contact you shortly.
+            </div>
+
+            <!-- Field 1: Name -->
+            <div>
+              <label for="client-name" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1.5">
+                Your Full Name
+              </label>
+              <input 
+                type="text" 
+                id="client-name" 
+                required 
+                placeholder="e.g. David Miller" 
+                class="w-full bg-slate-50 border border-slate-300 rounded-xl px-3.5 py-3 text-sm text-slate-900 focus:bg-white focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition"
+              >
+            </div>
+
+            <!-- Field 2: Location -->
+            <div>
+              <label for="client-location" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1.5">
+                Your Location / Suburb
+              </label>
+              <input 
+                type="text" 
+                id="client-location" 
+                required 
+                placeholder="e.g. Table View, Durbanville, Paarl" 
+                class="w-full bg-slate-50 border border-slate-300 rounded-xl px-3.5 py-3 text-sm text-slate-900 focus:bg-white focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition"
+              >
+            </div>
+
+            <!-- Field 3: Service Needed -->
+            <div>
+              <label for="client-service" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1.5">
+                Service Needed
+              </label>
+              <select 
+                id="client-service" 
+                required 
+                class="w-full bg-slate-50 border border-slate-300 rounded-xl px-3.5 py-3 text-sm text-slate-900 focus:bg-white focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition"
+              >
+                <option value="" disabled selected>Select service needed...</option>
+                <option value="wellpoint">Wellpoint Installation</option>
+                <option value="borehole">Borehole Drilling</option>
+                <option value="repairs">Pump Repairs &amp; Maintenance</option>
+                <option value="inspection">Site Inspection &amp; Flow Testing</option>
+              </select>
+            </div>
+
+            <!-- Submit Button -->
+            <button 
+              type="submit" 
+              class="w-full bg-brand-blue hover:bg-brand-blueHover text-white py-3.5 px-4 rounded-xl font-bold text-sm uppercase tracking-wider transition shadow-md focus:outline-none"
+            >
+              Submit Inquiry
+            </button>
+          </form>
+        </div>
+
+        <!-- Direct Contact Card -->
+        <div class="md:col-span-5 bg-brand-slate text-white p-6 sm:p-7 rounded-2xl border border-slate-700 shadow-sm space-y-5">
+          <div>
+            <span class="text-brand-blue text-xs font-bold uppercase tracking-widest block mb-1">Direct Help</span>
+            <h3 class="text-xl font-bold">Speak Directly With Our Technicians</h3>
+            <p class="text-slate-300 text-xs leading-relaxed mt-2">
+              Have questions about water depth, pump sizing, or need urgent repair assistance? Call us right away.
+            </p>
+          </div>
+
+          <a href="tel:0752247240" class="flex items-center gap-3 bg-brand-blue/20 border border-brand-blue/40 p-3.5 rounded-xl hover:bg-brand-blue/30 transition text-white">
+            <div class="w-10 h-10 rounded-lg bg-brand-blue flex items-center justify-center shrink-0">
+              <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+              </svg>
+            </div>
+            <div>
+              <span class="text-[10px] text-slate-300 uppercase tracking-wider block font-semibold">Direct Phone Line</span>
+              <span class="text-base font-extrabold tracking-wide text-brand-lightBlue">075 224 7240</span>
+            </div>
+          </a>
+
+          <div class="text-xs text-slate-300 space-y-1.5 pt-3 border-t border-slate-700/80">
+            <p><strong>Business Name:</strong> THINK wellpoint and boreholes</p>
+            <p><strong>Hours:</strong> Mon – Sat: 07:30 – 17:30</p>
+            <p><strong>Area:</strong> Greater Metro &amp; Surrounding Regions</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 6. FOOTER -->
+  <footer class="bg-brand-slateDark text-slate-400 border-t border-slate-800 text-xs py-8 px-4">
+    <div class="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
+      <div>
+        <span class="font-black text-white text-sm tracking-tight uppercase">THINK Wellpoint &amp; Boreholes</span>
+        <p class="text-[11px] text-slate-400 mt-0.5">Fast, Reliable &amp; Affordable Ground Water Solutions</p>
+      </div>
+      <div class="text-[11px] text-slate-500">
+        &copy; 2026 THINK wellpoint and boreholes. All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- PERSISTENT MOBILE CALL BAR (Fixed at bottom for immediate mobile conversion) -->
+  <aside class="md:hidden fixed bottom-0 inset-x-0 z-50 bg-brand-slate/95 backdrop-blur-md border-t border-slate-700 p-3 shadow-2xl">
+    <a href="tel:0752247240" 
+       class="flex items-center justify-center gap-2.5 w-full bg-brand-blue hover:bg-brand-blueHover active:scale-[0.98] text-white py-3.5 px-4 rounded-xl font-black text-sm uppercase tracking-wider shadow-lg transition">
+      <svg class="w-5 h-5 fill-current animate-bounce" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+      </svg>
+      <span>Call Now: 075 224 7240</span>
+    </a>
+  </aside>
+
+</body>
+</html>
